@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserStorie_school_assignment", "UserStorie_school_assignment\UserStorie_school_assignment.csproj", "{2C7D2F75-193B-450E-8FDA-C48247E657EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserStorie_school_assignmentTests", "UserStorie_school_assignmentTests\UserStorie_school_assignmentTests.csproj", "{C9EBD5D3-EB5F-44FB-A9DB-CFEC912D5B95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C7D2F75-193B-450E-8FDA-C48247E657EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7D2F75-193B-450E-8FDA-C48247E657EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7D2F75-193B-450E-8FDA-C48247E657EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7D2F75-193B-450E-8FDA-C48247E657EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9EBD5D3-EB5F-44FB-A9DB-CFEC912D5B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EBD5D3-EB5F-44FB-A9DB-CFEC912D5B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EBD5D3-EB5F-44FB-A9DB-CFEC912D5B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EBD5D3-EB5F-44FB-A9DB-CFEC912D5B95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A08E123-F493-4490-B47A-CCEBB8FAB0F1}
+	EndGlobalSection
+EndGlobal
