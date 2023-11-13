@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UserStorie_school_assignment.props" />
+</Project>

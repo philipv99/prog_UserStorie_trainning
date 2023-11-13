@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using UserStorie_school_assignment.Class;
 using UserStorie_school_assignment.Reposetorys;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -19,9 +20,9 @@ namespace UserStorie_school_assignment.Controllers
 
         // GET: api/<MusicRecordsController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public ActionResult<List<MusicRecord>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return Ok(_Repo.Get());
         }
 
         // GET api/<MusicRecordsController>/5
